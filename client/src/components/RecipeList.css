@@ -1,0 +1,14 @@
+/* RecipeList.css */
+.glassmorphism-card {
+    background: rgba(255, 255, 255, 0.15); /* Adjust opacity for desired frosted effect */
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); /* Adjust shadow values */
+    backdrop-filter: blur(5px); /* Blur effect for glassmorphism */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    transition: all 0.3s ease-in-out; /* Optional: Add transition for smoother effect */
+  }
+  
+  .glassmorphism-card:hover {
+    transform: translateY(-10px); /* Move the card up slightly on hover */
+    box-shadow: 0 12px 36px rgba(31, 38, 135, 0.5); /* Increase shadow intensity on hover */
+  }

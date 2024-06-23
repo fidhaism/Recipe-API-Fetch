@@ -1,0 +1,36 @@
+/* index.css or App.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('https://chrysalisherbs.com/wp-content/uploads/2017/12/recipes_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+footer {
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for better readability */
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
